@@ -14,9 +14,10 @@ import userDp from "../public/user-dp.svg"
 
 const Navbar = () => {
 
+  //useState hook to save Navbar's state ( Open and Close )
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
+  const handleNav = () => {                     // Handler function to set the Navbar's state using state setter function from hook.
     setNav(!nav);
 }
 
