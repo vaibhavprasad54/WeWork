@@ -58,7 +58,7 @@ const BrandInfo = () => {
           <div className="relative profile-image flex items-center justify-center flex-col mt-2 sm:mt-4">
             <Image src={companyImg1} className='lg:hidden w-full rounded-xl object-contain' alt="Company profile image" />
             <Image src={companyImg2} className='hidden lg:block w-full h-full rounded-xl' alt="Company profile image" />
-          <div className="absolute top-3 options backdrop-blur-xl backdrop-brightness-125 px-4 py-2 border-[1px] border-[#D3D7D7] rounded-md">
+          <div className="absolute top-3 options backdrop-blur-xl backdrop-brightness-105 px-4 py-2 border-[1px] border-[#D3D7D7] rounded-md">
               <div className='flex items-center justify-center space-x-2'>
               <div className="pdf flex items-center justify-center"> 
                 <BsFiletypePdf className='text-[#657372] text-2xl sm:text-4xl cursor-pointer hover:text-black' />
