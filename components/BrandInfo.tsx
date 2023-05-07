@@ -56,9 +56,9 @@ const BrandInfo = () => {
             </div>
           </div>
           <div className="relative profile-image flex items-center justify-center flex-col mt-2 sm:mt-4">
-            <Image src={companyImg1} className='md:hidden w-full rounded-xl object-contain' alt="Company profile image" />
-            <Image src={companyImg2} className='hidden md:block w-full rounded-xl object-contain' alt="Company profile image" />
-            <div className="options backdrop-blur-xl backdrop-brightness-125 px-4 py-2 border-[1px] border-[#D3D7D7] rounded-md -mt-[13.7rem] sm:-mt-[25rem] md:-mt-[25rem] lg:-mt-[25rem]">
+            <Image src={companyImg1} className='lg:hidden w-full rounded-xl object-contain' alt="Company profile image" />
+            <Image src={companyImg2} className='hidden lg:block w-full h-full rounded-xl' alt="Company profile image" />
+          <div className="absolute top-3 options backdrop-blur-xl backdrop-brightness-125 px-4 py-2 border-[1px] border-[#D3D7D7] rounded-md">
               <div className='flex items-center justify-center space-x-2'>
               <div className="pdf flex items-center justify-center"> 
                 <BsFiletypePdf className='text-[#657372] text-2xl sm:text-4xl cursor-pointer hover:text-black' />
@@ -82,7 +82,7 @@ const BrandInfo = () => {
               </div>
               </div>
           </div>
-          <div className='sm:mt-16 sm:px-7 sm:py-3 main-banner flex flex-col items-center justify-center bg-white/70 px-2 py-2 border-[1px] border-[#D3D7D7] rounded-sm mt-7'>
+          <div className='absolute top-16 sm:top-24 sm:mt-16 sm:px-7 sm:py-3 main-banner flex flex-col items-center justify-center bg-white/70 px-2 py-2 border-[1px] border-[#D3D7D7] rounded-sm mt-7'>
             <div className="banner-container flex flex-col items-center justify-center px-1 py-2">
               <Image src={weworkLogo} className='sm:w-80' alt="wework-logo" />
               <p className='text-[13px] sm:text-xl sm:pt-2 font-bold pb-1'>For all the ways you work, we&apos;re here</p>
