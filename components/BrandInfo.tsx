@@ -91,7 +91,7 @@ const BrandInfo = () => {
           </div>
 
 
-          <div className='relative w-full mt-10 sm:mt-32 pb-2 sm:mb-14'>
+          <div className='relative w-full -mt-1 mb-10 sm:mt-1 pb-2 sm:mb-12'>
           <div className="absolute chat-and-share flex items-center justify-start mt-4 space-x-3 divide-x divide-[#D3D7D7]">
             <BsChatText className='text-[#657372] text-lg sm:text-2xl cursor-pointer hover:text-gray-600' />
             <BiShareAlt className='text-[#657372] text-[28px] sm:text-3xl pl-2 cursor-pointer hover:text-gray-600' />
