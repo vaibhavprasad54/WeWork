@@ -62,7 +62,7 @@ const BrandInfo = () => {
               <div className='flex items-center justify-center space-x-2'>
               <div className="pdf flex items-center justify-center"> 
                 <BsFiletypePdf className='text-[#657372] text-2xl sm:text-4xl cursor-pointer hover:text-black' />
-                <p className='text-sm sm:text-lg pl-2'>1/15</p>
+                <p className='text-sm sm:text-lg pl-2 text-gray-600'>1/15</p>
               </div>
               <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
               <div className="download">
