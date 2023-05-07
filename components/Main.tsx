@@ -9,14 +9,14 @@ import { AiOutlinePlus } from "react-icons/ai"
 const Main = () => {
   return (
     <div className='main px-4 sm:px-6'>
-        <div className="w-full top flex items-center justify-between">
+        <div className="w-full top flex items-center justify-between mb-3">
             <h2 className='text-[#04433B] text-lg sm:text-2xl md:text-2xl font-extrabold'>WeWork + Salesforce</h2>
             <button className='bg-[#00B686] text-white text-sm sm:text-lg md:text-lg font-semibold px-3 py-[5px] rounded-[5px] cursor-pointer hover:bg-[#19a37e]'> Publish/Share </button>
         </div>
         <div className="middle my-0">
         <div className='relative -z-10 overflow-hidden'>
-                <Image src={banner} className='my-2 object-fill w-screen h-20 sm:h-32 md:h-56 rounded-lg sm:rounded-2xl' alt="Banner image" />
-                <span className="blurry bg-[url('../public/cutout.svg')] bg-no-repeat bg-right-top bg-cover content-none blur h-full sm:h-80 md:h-[21rem] lg:h-[23rem] xl:h-[25rem] absolute -right-2 top-0 w-1/2 my-clip"></span>
+                <Image src={banner} className=' object-fill w-screen h-20 sm:h-32 md:h-56 rounded-lg sm:rounded-2xl' alt="Banner image" />
+                <span className="blurry bg-[url('../public/cutout.png')] bg-no-repeat bg-right-top bg-cover -mt-[10px] content-none blur h-full sm:h-80 md:h-[21rem] lg:h-[23rem] xl:h-[25rem] absolute -right-2 top-0 w-1/2 my-clip"></span>
                 <div className="overlay flex items-center text-xl h-full absolute top-0 right-2">
                     <div className="flex">
                        <h2 className='sm:mr-10 text-base sm:text-xl md:-mt-16 md:text-3xl lg:mr-14 lg:-mt-10 lg:text-4xl xl:text-4xl xl:mr-36 xl:mt-5 font-black leading-5'>Workspace <br /> Proposal</h2>
