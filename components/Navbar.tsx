@@ -39,7 +39,7 @@ const Navbar = () => {
               <Image src={userdp} className='cursor-pointer' title='Jane Smith' alt="" />
             </div>
         </div>
-        <hr className='w-full h-px my-3 bg-gray-300 border-0' />
+        <hr className='w-full h-px my-3 bg-gray-200 border-0' />
 
         <div className={nav ? "md:hidden z-50 fixed right-0 top-0 w-full h-screen bg-black/70": ""}>            {/* Overlay shadow on hamburger click */}
             <div className={nav ? "fixed right-0 top-0 w-[100%] sm:w-[100%] md:w-[100%] h-screen bg-[#F2FBF9] px-5 py-3 ease duration-500": "fixed right-[-100%] top-0 px-5 py-4 ease duration-500"}>
