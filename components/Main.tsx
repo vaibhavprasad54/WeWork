@@ -14,7 +14,7 @@ const Main = () => {
             <button className='bg-[#00B686] text-white text-sm sm:text-lg md:text-lg font-semibold px-3 py-[5px] rounded-[5px] cursor-pointer hover:bg-[#19a37e]'> Publish/Share </button>
         </div>
         <div className="middle my-0">
-            <div className='relative -z-10 overflow-hidden'>
+        <div className='relative -z-10 overflow-hidden'>
                 <Image src={banner} className='my-2 object-fill w-screen h-20 sm:h-32 md:h-56 rounded-lg sm:rounded-2xl' alt="Banner image" />
                 <span className="blurry bg-[url('../public/cutout.svg')] bg-no-repeat bg-right-top bg-cover content-none blur h-full sm:h-80 md:h-[21rem] lg:h-[23rem] xl:h-[25rem] absolute -right-2 top-0 w-1/2 my-clip"></span>
                 <div className="overlay flex items-center text-xl h-full absolute top-0 right-2">
