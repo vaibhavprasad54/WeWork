@@ -66,20 +66,20 @@ const Navbar = () => {
                 <ul className="text-[#233735] flex flex-col items-start">
                     <Link href="/" className='flex items-center justify-start space-x-4 w-full border-b border-gray-300'> 
                     <Image src={searchicon} alt="" />
-                      <li className="py-[1.1rem] font-normal text-base"> Search </li> 
+                      <li className="py-[1.15rem] font-normal text-base"> Search </li> 
                     </Link>
                     <Link href="/#about" className='flex items-center justify-start space-x-4 w-full border-b border-gray-300'> 
                       <Image src={galleryicon} alt="" />
-                      <li className="py-[1.1rem] font-normal text-base"> Inbox </li> 
+                      <li className="py-[1.15rem] font-normal text-base"> Inbox </li> 
                     </Link>
                     <Link href="/#projects" className='relative flex items-center justify-start space-x-4 w-full border-b border-gray-300'> 
                       <Image src={notificationicon} alt="" />
                         <div className='absolute top-2 -left-1 h-5 w-5 rounded-full text-white font-semibold flex items-center justify-center bg-[#F97777] text-[10px]'>25</div>
-                      <li className="py-[1.1rem] font-normal text-base"> Notification </li>
+                      <li className="py-[1.15rem] font-normal text-base"> Notification </li>
                     </Link>
                     <Link href="/#contact" className='flex items-center justify-start space-x-4 w-full border-b border-gray-300'> 
                       <Image src={helpicon} alt="" />
-                      <li className="py-[1.1rem] font-normal text-base"> Help </li> 
+                      <li className="py-[1.15rem] font-normal text-base"> Help </li> 
                     </Link>
                 </ul>
 
