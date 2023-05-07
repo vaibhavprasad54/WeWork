@@ -64,19 +64,19 @@ const BrandInfo = () => {
                 <BsFiletypePdf className='text-[#657372] text-2xl sm:text-4xl cursor-pointer hover:text-black' />
                 <p className='text-sm sm:text-lg pl-2 text-gray-600'>1/15</p>
               </div>
-              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-500 opacity-100 dark:opacity-50"></div>
               <div className="download">
                 <BsDownload className='text-[#657372] text-xl sm:text-3xl ml-3 cursor-pointer hover:text-black' />
               </div>
-              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-500 opacity-100 dark:opacity-50"></div>
               <div className="zoom-in">
                 <CiZoomIn className='text-[#657372] text-2xl sm:text-4xl ml-2 cursor-pointer hover:text-black' />
               </div>
-              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+              <div className="inline-block h-[30px] min-h-[1em] w-[1.5px] self-stretch bg-neutral-500 opacity-100 dark:opacity-50"></div>
               <div className="zoom-out">
                 <CiZoomOut className='text-[#657372] text-2xl sm:text-4xl ml-2 cursor-pointer hover:text-black' />
               </div>
-              <div className="inline-block h-[30px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+              <div className="inline-block h-[30px] min-h-[1em] w-[1.6px] self-stretch bg-neutral-500 opacity-100 dark:opacity-50"></div>
               <div className="expand">
                 <AiOutlineExpand className='text-[#657372] text-lg sm:text-3xl ml-2 cursor-pointer hover:text-black' />
               </div>
